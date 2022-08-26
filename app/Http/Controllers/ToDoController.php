@@ -69,7 +69,7 @@
              
             if($verify){
                 $verify->delete();
-                return response()->json(['message' => 'Note Created Successfully']);
+                return response()->json(['message' => 'Note Deleted Successfully']);
             }
                 return response()->json(['message' => 'Cannot find note']);
         }
